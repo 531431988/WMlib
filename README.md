@@ -4,7 +4,7 @@
 
 
 项目实例：
-<h3><a href="www.fcz.cn">非常装</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mall.fcz.cn">软装商城</a></h3>
+<h3><a href="http://www.fcz.cn">非常装</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://mall.fcz.cn">软装商城</a></h3>
 
 
 
@@ -17,6 +17,7 @@
 
 # 2016
 * 01-18 添加背景.bg-white   文本.t-white类名
+* 01-28 修改火狐下单选复选无法隐藏Bug 图标不显示
 
 
 # 2015
