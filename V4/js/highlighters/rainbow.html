@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> Rainbow Demo - GitHub Theme</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/Rainbow/rainbow.min.js"></script>
+    <link href="js/Rainbow/themes/github.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="demodisplay">
+        <h1> Rainbow Demo - GitHub Theme</h1>
+        <p>Website: <a href="https://craig.is/making/rainbows" target="_target">https://craig.is/making/rainbows</a></p>
+        <h2>HTML</h2>
+        <pre><code data-language="html"> 
+&lt;header&gt;
+&lt;h1&gt;Example HTML&lt;/h1&gt;
+&lt;/header&gt;
+&lt;main class=&quot;style&quot;&gt;
+&lt;p&gt;Some text&lt;/p&gt;
+&lt;/main&gt;</code></pre>
+        <h2>JavaScript</h2>
+        <pre><code data-language="javascript">var example = true;
+
+function foo(arg) {
+	console.log( "do", arg);
+	arg = example ? true : false;
+	return arg;
+}</code></pre>
+        <h2>CSS</h2>
+        <pre><code data-language="css">@import "somestyle.css"
+
+body {
+	background: white;
+}
+
+.wrapper {
+	background: #F88;
+	color: #454545;
+}
+
+.box::after {
+	content: "...";
+}</code></pre>
+        <h2>PHP</h2>
+        <pre><code data-language="php">&lt;?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;?php the_title(); ?&gt;&lt;/h1&gt;
+&lt;?php the_content(); ?&gt;
+&lt;/article&gt;
+&lt;?php endwhile; endif; ?&gt;</code></pre>
+        <h2>Markdown</h2>
+        <pre><code data-language="markdown"># Example Markdown
+
+Some text with *emphasis*
+
+* list
+* list
+* list
+
+Some text with a [link](http://tutsplus.com)</code></pre>
+        <h2>CoffeeScript</h2>
+        <pre><code data-language="coffeescript"># Objects:
+math =
+  root:   Math.sqrt
+  square: square
+  cube:   (x) -> x * square x
+
+# Splats:
+race = (winner, runners...) ->
+  print winner, runners
+
+# Existence:
+alert "I knew it!" if elvis?
+
+# Array comprehensions:
+cubes = (math.cube num for num in list)</code></pre>
+        <h2>Handlebars</h2>
+        <pre><code data-language="handlebars">&lt;header&gt;
+&lt;h1&gt;{{title}}&lt;/h1&gt;
+&lt;/header&gt;
+&lt;main class=&quot;style&quot;&gt;
+{{content}}
+&lt;/main&gt;</code></pre>
+        <h2>Jade</h2>
+        <pre><code data-language="jade">- var title = "Example Jade";
+header
+	h1 #{title}
+main.style
+	p Some text</code></pre>
+        <h2>LESS</h2>
+        <pre><code data-language="less">@body_background: white;
+@wrapper_background: #F88;
+@wrapper_color: #454545;
+
+body {
+	background: @body_background;
+}
+
+.wrapper {
+	background: @wrapper_background;
+	color: @wrapper_color;
+}
+
+.box::after {
+	content: "...";
+}</code></pre>
+        <h2>Sass</h2>
+        <pre><code data-language="scss">$body_background: white;
+$wrapper_background: #F88;
+$wrapper_color: #454545;
+
+body {
+	background: $body_background;
+}
+
+.wrapper {
+	background: $wrapper_background;
+	color: $wrapper_color;
+}
+
+.box::after {
+	content: "...";
+}</code></pre>
+        <h2>Stylus</h2>
+        <pre><code data-language="stylus">$body_background = white
+$wrapper_background = #F88
+$wrapper_color = #454545
+
+body
+	background: $body_background
+
+.wrapper
+	background: $wrapper_background
+	color: $wrapper_color
+
+.box::after
+	content: "..."</code></pre>
+        <script src="js/Rainbow/language/coffeescript.js"></script>
+        <script src="js/Rainbow/language/css.js"></script>
+        <script src="js/Rainbow/language/generic.js"></script>
+        <script src="js/Rainbow/language/html.js"></script>
+        <script src="js/Rainbow/language/javascript.js"></script>
+        <script src="js/Rainbow/language/php.js"></script>
+      </div>
+      <div class="demolist">
+        <h3>Highlighter Demos:</h3>
+        <ul>
+          <li><a href="syntaxhighlighter.html">SyntaxHighlighter - Default Theme</a></li>
+          <li><a href="syntaxhighlighter_midnight.html">SyntaxHighlighter - Midnight Theme</a></li>
+          <li><a href="syntaxhighlighter_rdark.html">SyntaxHighlighter - RDark Theme</a></li>
+          <li><a href="prism.html">Prism - Default Theme</a></li>
+          <li><a href="prism_okaidia.html">Prism - Okaidia Theme</a></li>
+          <li><a href="prism_twilight.html">Prism - Twilight Theme</a></li>
+          <li><a href="highlightjs.html">Highlight.js - Default Style</a></li>
+          <li><a href="highlightjs_monokai.html">Highlight.js - Monokai Sublime Style</a></li>
+          <li><a href="highlightjs_railscasts.html">Highlight.js - Railscasts Style</a></li>
+          <li><a href="rainbow.html">Rainbow - GitHub Theme</a></li>
+          <li><a href="rainbow_monokai.html">Rainbow - Monokai Theme</a></li>
+          <li><a href="rainbow_twilight.html">Rainbow - Twilight Theme</a></li>
+          <li><a href="shjs.html">SHJS - Default Theme</a></li>
+          <li><a href="shjs_eclipse.html">SHJS - Eclipse Theme</a></li>
+          <li><a href="shjs_navy.html">SHJS - Navy Theme</a></li>
+          <li><a href="code_prettify.html">Code Prettify - Default Theme</a></li>
+          <li><a href="code_prettify_desert.html">Code Prettify - Desert Theme</a></li>
+          <li><a href="code_prettify_sunburst.html">Code Prettify - Sunburst Theme</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

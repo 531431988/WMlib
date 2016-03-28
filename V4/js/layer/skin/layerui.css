@@ -1,0 +1,36 @@
+/* 默认配置 */
+/*html #layui_layer_skinyourskinstylecss{display:none;position:absolute;width:1989px;}*/
+/*.layui-layer-dialog{min-width:400px;}*/
+/*.layui-layer-dialog .layui-layer-content .layui-layer-ico{position:absolute;top:32px;left:15px;_left:-50px;width:39px;height:39px;}
+.layui-layer-dialog .layui-layer-content{padding:40px 20px;}
+.layui-layer-dialog .layui-layer-padding{padding:40px 20px 40px 65px;text-align:left;}
+.layui-layer-dialog.layui-layer-hui{min-width:100px;border:none;}
+.layui-layer-dialog.layui-layer-hui .layui-layer-content{padding:20px;}
+.layui-layer-dialog .layui-layer-input{display:block;width:220px;height:30px;margin:0 auto;line-height:30px;padding:0 5px;border:1px solid #ccc;background:url(default/textbg.png) #fff repeat-x;color:#333;}*/
+.layui-layer-btn{padding-top: 10px;}
+
+
+/* 亮灰 */
+.layui-layer-white .layui-layer-title{
+	background-color: #fff;
+	margin-bottom:2px;
+}
+.layui-layer-white .layui-layer-content{border-top:1px solid #eee;}
+.layui-layer-white .layui-layer-btn{text-align: center;}
+.layui-layer-white .layui-layer-btn a{
+	border-radius:20px;
+	background-color: #1b76c4;
+}
+.layui-layer-white .layui-layer-btn .layui-layer-btn1{
+	color:#fff;
+	background-color: #666;
+	border-color:#666;
+}
+.layui-layer-white-msg{min-width:auto;}
+/*.layui-layer-white-msg{
+	background-color:rgba(0,0,0,.6);
+	box-shadow: none;
+	border-radius: 5px;
+	border:none;
+	color: #fff;
+}*/
