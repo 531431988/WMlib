@@ -44,7 +44,7 @@
 .icon-circle-down:before{content:"\e07b";}
 .icon-mail:before{content:"\e086";}
 .icon-eye:before{content:"\e087";}
-.icon-circle-info:before{content:"\e08b";}
+.icon-circle-teal:before{content:"\e08b";}
 .icon-password:before{content:"\e08e";}
 .icon-rotate:before{content:"\e098";}
 .icon-set:before{content:"\e09a";}
@@ -56,10 +56,10 @@
 .icon-edit:before{content:"\e614";}
 .icon-new:before{content:"\e61f";}
 .icon-folder:before{content:"\e624";}
-.icon-solid-success:before{content:"\e625";}
+.icon-solid-green:before{content:"\e625";}
 .icon-solid-error:before{content:"\e626";}
 .icon-solid-tip:before{content:"\e627";}
-.icon-solid-info:before{content:"\e628";}
+.icon-solid-teal:before{content:"\e628";}
 .icon-solid-help:before{content:"\e629";}
 .icon-qq:before{content:"\e62e";}
 .icon-vcode:before{content:"\e62f";}
@@ -69,7 +69,7 @@
 .icon-money:before{content:"\e63e";}
 .icon-phone:before{content:"\e640";}
 .icon-qzone:before{content:"\e642";}
-.icon-success:before{content:"\e645";}
+.icon-green:before{content:"\e645";}
 .icon-error:before{content:"\e646";}
 .icon-renren:before{content:"\e647";}
 .icon-menu:before{content:"\e648";}
@@ -82,9 +82,9 @@
 .icon-bell:before{content:"\e65f";}
 .icon-magic:before{content:"\e660";}
 .icon-key:before{content:"\e662";}
-.icon-circle-success:before{content:"\e663";}
-.icon-solid-warning:before{content:"\e664";}
-.icon-circle-warning:before{content:"\e665";}
+.icon-circle-green:before{content:"\e663";}
+.icon-solid-yellow:before{content:"\e664";}
+.icon-circle-yellow:before{content:"\e665";}
 .icon-add-img:before{content:"\e666";}
 .icon-location:before{content:"\e669";}
 .icon-file:before{content:"\e66f";}
