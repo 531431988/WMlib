@@ -2,7 +2,7 @@
 最适合懒人使用的轻量级CSS框架
 简单、好用、扩展性强 重构页面更迅速、更简单
 
-# 2016-03-28
+# 2016-03-28 V4大变身
 * 引入bootstrap框架的grid系统 添加可选组件
 * hover动画 validate验证 select2美化 多级联动 layer合集
 * <a href="http://oilan.com.cn/wm/html/">查看演示</a>
