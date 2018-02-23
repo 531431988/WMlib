@@ -1,11 +1,13 @@
 # WMlib.css
 最适合懒人使用的轻量级CSS框架
 简单、好用、扩展性强 重构页面更迅速、更简单
+[V5 查看演示](http://wm.wuhao.in/index/)
+[移动端](http://wm.wuhao.in/NUI)
 
 # 2016-05-11 V5 方法重构更灵活更方便
 * 预留接口可输出IE8低版本和现代浏览器两个版本
 * 清除代码冗余、更强大的组件复用
-* <a href="http://oilan.com.cn/wm/V5/">查看演示</a>
+
 
 
 
@@ -48,7 +50,7 @@
 
 
 项目首页 （暂不提供sass文件）
-<h4><a href="http://oilan.com.cn/wm/" target="_blank">查看演示</a> </h4>
+<h4><a href="http://wm.wuhao.in/index/" target="_blank">查看演示</a> </h4>
 演示中的内容仅供参与，如有接受不了请忽略。
 <b>注：由于自身原因文档不是很细，提供的组件只要按结构可以任意套用，自由发挥。如发现bug或其他建议或意见，可直接联系本人进行添加与完善！联系方式请看项目首页…</b>
 
