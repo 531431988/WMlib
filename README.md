@@ -1,12 +1,13 @@
 # WMlib.css
-最适合懒人使用的轻量级CSS框架
-简单、好用、扩展性强 重构页面更迅速、更简单
+最适合懒人使用的轻量级CSS框架<br/>
+简单、好用、扩展性强 重构页面更迅速、更简单<br/>
 [V5 查看演示](http://wm.wuhao.in/index/)
 [移动端](http://wm.wuhao.in/NUI)
 
 # 2016-05-11 V5 方法重构更灵活更方便
 * 预留接口可输出IE8低版本和现代浏览器两个版本
 * 清除代码冗余、更强大的组件复用
+* 抽离精简版与完整版，可按需引入
 
 
 
@@ -16,13 +17,12 @@
 # 2016-03-28 V4大变身
 * 引入bootstrap框架的grid系统 添加可选组件
 * hover动画 validate验证 select2美化 多级联动 layer合集
-* <a href="http://oilan.com.cn/wm/html/">查看演示</a>
 
 
 # 2016
 * 01-19 抽离字体图标，用户可自定义
 * 01-19 添加第三方动画库，去掉部分默认动画
-* 		http://ianlunn.github.io/Hover  hover.min.css精简后的动画或直接引用官方原版
+* 	http://ianlunn.github.io/Hover  hover.min.css精简后的动画或直接引用官方原版
 *		http://daneden.github.io/animate.css/  animate动画库
 *
 * 01-18 添加背景.bg-white 文本.t-white类名
